@@ -8,13 +8,14 @@ class PageOne extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Page One')),
+      appBar: AppBar(title: Text(' One')),
       body: Column(
         children: [
           const Center(child: Text('Go to the next page')),
-          TextButton(onPressed: (){
-            Get.to(PageTwo());
-          },
+          TextButton(
+              onPressed: () {
+                Get.to(PageTwo());
+              },
               child: Text('Go'))
         ],
       ),
