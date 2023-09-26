@@ -9,7 +9,7 @@ class PageFour extends StatelessWidget {
       appBar: AppBar(title: const Text('Page Four')),
       body: Center(
           child: Column(
-        children: [const Text('the body of page four ')],
+        children: [const Text('the  four ')],
       )),
     );
   }
